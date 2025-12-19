@@ -209,8 +209,8 @@ header{
 }     
 
 .game-box{
-    margin-left: 51px;
-    margin-right: 51px;
+    margin-left: 45px;
+    margin-right: 45px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 20px;
@@ -287,7 +287,8 @@ header{
 }
 
 .games{
-  min-width:800px;
+  min-width:200px;
+  justify-content:center;
   flex-wrap: wrap;
    display: flex;
    flex-direction: row;
