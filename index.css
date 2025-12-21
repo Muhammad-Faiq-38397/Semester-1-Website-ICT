@@ -28,10 +28,108 @@ header{
   z-index: 5;
 }
 
+.lb{
+        color: yellow;
+        margin-left: 1px;
+        margin-right: 12px;
+        margin-top: 3px;
+        transition: background-color 0.1s, color 0.1s, box-shadow 0.1s;
+        background-color: #0A1A33;
+        border: none;
+        height: 85px;
+        width: 85px;
+        border-radius: 42px;
+        cursor: pointer;
+        font-size: medium;
+        font-weight: bold;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+     
+    .lb:hover{
+    background-color: rgb(255, 255, 0) ;
+    color: #0A1A33 ;
+    box-shadow: 2px 2px 4px  #000e22;
+    }
+    .lb:active{
+        opacity: 0.8;
+    }
+
 .page-title{
-  font-size: 60px;
-  font-weight: 400;
+  font-size: 45px;
+  font-weight: 350;
+  color: white;
+  transition: color 0.1s, text-shadow 0.1s;
+  margin-left: 65px;
+  margin-right: 0px;
 }
+  .page-title:hover{
+    color: rgb(255, 255, 0);
+    text-shadow: 2px 2px 4px #03080f;
+
+  }
+
+.steam{
+ color: yellow;
+        margin-left: 3px;
+        margin-top: 3px;
+        transition: background-color 0.1s, color 0.1s, box-shadow 0.1s;
+        background-color: #0A1A33;
+        border: none;
+        height: 35px;
+        width: 70px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: small;
+        font-weight: bold;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        font-family: sans-serif;
+}
+.steam:hover{
+  background-color: rgb(255, 255, 0) ;
+    color: #0A1A33 ;
+    box-shadow: 2px 2px 4px  #000e22;
+  }
+
+  .steam:active{
+        opacity: 0.8;
+    }
+
+.epic{
+ color: yellow;
+        margin-left: 3px;
+        margin-top: 3px;
+        transition: background-color 0.1s, color 0.1s, box-shadow 0.1s;
+        background-color: #0A1A33;
+        border: none;
+        height: 35px;
+        width: 100px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: small;
+        font-weight: bold;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        font-family: sans-serif;
+}
+.epic:hover{
+    background-color: rgb(255, 255, 0) ;
+    color: #0A1A33 ;
+    box-shadow: 2px 2px 4px  #000e22;
+  }
+
+  .epic:active{
+        opacity: 0.8;
+    }
 
 .discription{
   background-color: rgba(10, 26, 51, 0.3);
@@ -46,6 +144,21 @@ header{
 
 .discription p{
   margin-top: 8px;
+}
+
+.dis-1{
+color: #061122;
+font-weight: bolder;
+}
+
+.dis-2{
+color: #061122;
+font-weight: bolder;
+}
+
+.dis-3{
+color: #061122;
+font-weight: bolder;
 }
 
 .big-game{
@@ -294,4 +407,15 @@ header{
    flex-direction: row;
        height: 100%;
     width: 100%;
+}
+
+.end{
+  margin-top: 50px;
+  margin-left: 25px;
+  width: auto;
+  height: auto;
+  font-size: medium;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #000e22;
 }
