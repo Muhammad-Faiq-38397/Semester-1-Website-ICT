@@ -76,7 +76,7 @@ header{
   }
 
 .steam{
- color: yellow;
+        color: yellow;
         margin-left: 3px;
         margin-top: 3px;
         transition: background-color 0.1s, color 0.1s, box-shadow 0.1s;
@@ -142,26 +142,14 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
 }
 
 .discription p{
   margin-top: 8px;
 }
 
-.dis-1{
-color: #ffffff;
-font-weight: bolder;
-}
 
-.dis-2{
-color: #fafafa;
-font-weight: bolder;
-}
-
-.dis-3{
-color: #ffffff;
-font-weight: bolder;
-}
 
 .big-game{
   min-width: 800px;
